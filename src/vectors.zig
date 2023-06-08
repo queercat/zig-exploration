@@ -9,6 +9,6 @@ pub fn main() !void {
     try list.append(@as(u64, i));
   }
   for (list.items) |item| {
-    std.debug.print("{}", .{item});
+    std.debug.print("{}\n", .{item});
   }
 }
