@@ -5,3 +5,7 @@ hello:
 vectors:
 	zig build-exe src/vectors.zig -femit-bin=./build/vectors
 	./build/vectors
+
+linked-list:
+	zig build-exe src/linked-list.zig -femit-bin=./build/linked-list
+	./build/linked-list
