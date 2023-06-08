@@ -1,0 +1,2 @@
+# zig-exploration
+Exploring Zig.
